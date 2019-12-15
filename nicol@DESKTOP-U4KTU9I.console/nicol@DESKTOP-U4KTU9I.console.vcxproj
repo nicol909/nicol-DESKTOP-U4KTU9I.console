@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\WinObjC.Language.0.2.180220\build\WinObjC.Language.props" Condition="Exists('..\packages\WinObjC.Language.0.2.180220\build\WinObjC.Language.props')" />
+  <Import Project="..\packages\WinObjC.Logging.0.2.180220\build\WinObjC.Logging.props" Condition="Exists('..\packages\WinObjC.Logging.0.2.180220\build\WinObjC.Logging.props')" />
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|ARM">
       <Configuration>Debug</Configuration>
@@ -78,8 +80,21 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <ImportGroup Label="ExtensionTargets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\WinObjC.Logging.0.2.180220\build\WinObjC.Logging.targets" Condition="Exists('..\packages\WinObjC.Logging.0.2.180220\build\WinObjC.Logging.targets')" />
+    <Import Project="..\packages\WinObjC.Language.0.2.180220\build\WinObjC.Language.targets" Condition="Exists('..\packages\WinObjC.Language.0.2.180220\build\WinObjC.Language.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Ce projet fait référence à des packages NuGet qui sont manquants sur cet ordinateur. Utilisez l'option de restauration des packages NuGet pour les télécharger. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkID=322105. Le fichier manquant est : {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\WinObjC.Logging.0.2.180220\build\WinObjC.Logging.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\WinObjC.Logging.0.2.180220\build\WinObjC.Logging.props'))" />
+    <Error Condition="!Exists('..\packages\WinObjC.Logging.0.2.180220\build\WinObjC.Logging.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\WinObjC.Logging.0.2.180220\build\WinObjC.Logging.targets'))" />
+    <Error Condition="!Exists('..\packages\WinObjC.Language.0.2.180220\build\WinObjC.Language.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\WinObjC.Language.0.2.180220\build\WinObjC.Language.props'))" />
+    <Error Condition="!Exists('..\packages\WinObjC.Language.0.2.180220\build\WinObjC.Language.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\WinObjC.Language.0.2.180220\build\WinObjC.Language.targets'))" />
+  </Target>
 </Project>
