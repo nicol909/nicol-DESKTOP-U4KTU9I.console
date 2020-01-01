@@ -45,6 +45,7 @@
     <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
     <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
     <LinuxProjectType>{D51BCBC9-82E9-4017-911E-C93873C4EA2B}</LinuxProjectType>
+    <ProjectName>MyWindows-.console</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
@@ -86,15 +87,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\..\..\Program Files (x86)\Google\Chrome\Application\chrome.exe" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Service Fabric\FabricInstallerService.Code\FabricCommon.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Service Fabric\FabricInstallerService.Code\FabricInstallerService.exe" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Service Fabric\FabricInstallerService.Code\FabricResources.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Service Fabric\FabricInstallerService.Code\msvcp140.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Service Fabric\FabricInstallerService.Code\vcruntime140.dll" />
     <None Include="..\..\..\..\..\..\..\Program Files (x86)\Pioneer\rekordbox 5.8.1\rekordbox.exe" />
     <None Include="..\..\..\..\..\..\..\Program Files (x86)\Seagate\SeaTools for Windows\SeaToolsforWindows.exe" />
     <None Include="..\..\..\..\..\..\..\Program Files (x86)\Serato\Serato Studio\Serato Studio.exe" />
     <None Include="..\..\..\..\..\..\..\Program Files (x86)\SplitmediaLabs\XSplit Gamecaster\XGCUpdater.exe" />
     <None Include="..\..\..\..\..\..\..\Program Files (x86)\Toolkit\Toolkit.exe" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Microsoft\Xamarin.Offline.config" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\Accessible.tlb" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\AccessibleHandler.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\AccessibleMarshal.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-core-file-l1-2-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-core-file-l2-1-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-core-localization-l1-2-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-core-processthreads-l1-1-1.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-core-synch-l1-2-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-core-timezone-l1-1-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-crt-conio-l1-1-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-crt-convert-l1-1-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-crt-environment-l1-1-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-crt-filesystem-l1-1-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-crt-heap-l1-1-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-crt-locale-l1-1-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-crt-math-l1-1-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-crt-multibyte-l1-1-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-crt-private-l1-1-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-crt-process-l1-1-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-crt-runtime-l1-1-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-crt-stdio-l1-1-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-crt-string-l1-1-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-crt-time-l1-1-0.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\api-ms-win-crt-utility-l1-1-0.dll" />
     <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\firefox.exe" />
     <None Include="..\..\..\..\..\..\..\Program Files\Unity\Editor\Unity.exe" />
     <None Include="..\..\..\..\..\..\..\Windows\Installer\{8F269D1C-CF22-41B3-A1E4-97EFAF8E6F9F}\MainExecutableIcon.exe" />
     <None Include="..\..\..\..\..\..\..\Windows\System32\cmd.exe" />
+    <None Include="..\..\..\..\..\.nuget\installdependency.cmd" />
+    <None Include="..\..\..\..\..\.nuget\MSBuild.exe.config" />
+    <None Include="..\..\..\..\..\.nuget\NuGet.config" />
+    <None Include="..\..\..\..\..\.nuget\NuGet.exe" />
+    <None Include="..\..\..\..\..\.nuget\NuGet.exe.props" />
+    <None Include="..\..\..\..\..\.nuget\NuGet.targets" />
+    <None Include="..\..\..\..\..\.nuget\PackageReference.cs" />
+    <None Include="..\..\..\..\..\.nuget\PackageReference.csproj" />
+    <None Include="..\..\..\..\..\.nuget\packages.config" />
     <None Include="..\..\..\..\..\Link\HFS4WIN.msi" />
     <None Include="..\..\..\..\..\Link\SeaChestUtilities.zip" />
     <None Include="..\..\..\..\..\Link\SeagateToolkit.exe" />
@@ -114,12 +154,35 @@
     <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\WindowsApplication\PropertySheet.props" />
     <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\WindowsApplication\WindowsApplication.vcxproj" />
     <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\WindowsApplication\WindowsApplication.vcxproj.filters" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Project\VisualStudio 2019.Services Project.dtproj.user" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Project\VisualStudio 2019ConsoleApplication1.vcxproj" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Project\WindowsRuntimeComponent.vcxproj" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Project\WindowsRuntimeComponent.vcxproj.filters" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Project\xwbtool_Desktop_2017.vcxproj" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Project\xwbtool_Desktop_2017.vcxproj.filters" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Project\xwbtool_Desktop_2019.vcxproj" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Project\xwbtool_Desktop_2019.vcxproj.filters" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Settings\AzureRepos.json" />
     <None Include="..\..\..\..\..\OneDrive\igfx_win10_100.7584.exe" />
     <None Include="..\..\..\..\..\OneDrive\Intel-Driver-and-Support-Assistant-Installer.exe" />
     <None Include="..\..\..\..\..\OneDrive\MediaCreationTool1903.exe" />
     <None Include="..\..\..\..\..\OneDrive\Microsoft.VisualStudio.Offline.config" />
     <None Include="..\..\..\..\..\OneDrive\realsense-config.json" />
     <None Include="..\..\..\..\..\realsense-config.json" />
+    <None Include="..\..\..\Linux\Lin64\nvme_15_11_64" />
+    <None Include="..\..\..\Linux\Lin64\nytrocli_030011_64" />
+    <None Include="..\..\..\Linux\Lin64\SeaChest_Basics_280_11923_64" />
+    <None Include="..\..\..\Linux\Lin64\SeaChest_Configure_1170_11923_64" />
+    <None Include="..\..\..\Linux\Lin64\SeaChest_Erase_201_11923_64" />
+    <None Include="..\..\..\Linux\Lin64\SeaChest_Firmware_270_11923_64" />
+    <None Include="..\..\..\Linux\Lin64\SeaChest_Format_140_11923_64" />
+    <None Include="..\..\..\Linux\Lin64\SeaChest_GenericTests_180_11923_64" />
+    <None Include="..\..\..\Linux\Lin64\SeaChest_Info_150_11923_64" />
+    <None Include="..\..\..\Linux\Lin64\SeaChest_Lite_120_11923_64" />
+    <None Include="..\..\..\Linux\Lin64\SeaChest_NVMe_100_11923_64" />
+    <None Include="..\..\..\Linux\Lin64\SeaChest_PowerControl_1100_11923_64" />
+    <None Include="..\..\..\Linux\Lin64\SeaChest_Security_201_11923_64" />
+    <None Include="..\..\..\Linux\Lin64\SeaChest_SMART_1120_11923_64" />
     <None Include="Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +209,12 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\WindowsApplication\WindowsApplication.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\..\..\.nuget\NuGet.Protocol.xml" />
+    <Xml Include="..\..\..\..\..\.nuget\NuGet.runner.xml" />
+    <Xml Include="..\..\..\..\..\.nuget\NuGet.RuntimeModel.xml" />
+    <Xml Include="..\..\..\..\..\.nuget\WebSystemAdminUiManifest.xml" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
