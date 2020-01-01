@@ -77,10 +77,75 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\ConsoleApplication\main.cpp" />
+    <ClCompile Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\ConsoleApplication\pch.cpp" />
+    <ClCompile Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\cppwinrt\main.cpp" />
+    <ClCompile Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\cppwinrt\pch.cpp" />
+    <ClCompile Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\WindowsApplication\pch.cpp" />
+    <ClCompile Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\WindowsApplication\winmain.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Google\Chrome\Application\chrome.exe" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Pioneer\rekordbox 5.8.1\rekordbox.exe" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Seagate\SeaTools for Windows\SeaToolsforWindows.exe" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Serato\Serato Studio\Serato Studio.exe" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\SplitmediaLabs\XSplit Gamecaster\XGCUpdater.exe" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Toolkit\Toolkit.exe" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Mozilla Firefox\firefox.exe" />
+    <None Include="..\..\..\..\..\..\..\Program Files\Unity\Editor\Unity.exe" />
+    <None Include="..\..\..\..\..\..\..\Windows\Installer\{8F269D1C-CF22-41B3-A1E4-97EFAF8E6F9F}\MainExecutableIcon.exe" />
+    <None Include="..\..\..\..\..\..\..\Windows\System32\cmd.exe" />
+    <None Include="..\..\..\..\..\Link\HFS4WIN.msi" />
+    <None Include="..\..\..\..\..\Link\SeaChestUtilities.zip" />
+    <None Include="..\..\..\..\..\Link\SeagateToolkit.exe" />
+    <None Include="..\..\..\..\..\Link\SeaToolsforWindowsSetup.exe" />
+    <None Include="..\..\..\..\..\OneDrive\0009-64bit_Win7_Win8_Win81_Win10_R282.exe" />
+    <None Include="..\..\..\..\..\OneDrive\Depth.Quality.Tool.exe" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\.vsconfig" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\ConsoleApplication\ConsoleApplication.vcxproj" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\ConsoleApplication\ConsoleApplication.vcxproj.filters" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\ConsoleApplication\cppwinrt_ConsoleApplication.vstemplate" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\ConsoleApplication\PropertySheet.props" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\cppwinrt\ARM\Debug\cppwinrt.tlog\cppwinrt.lastbuildstate" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\cppwinrt\cppwinrt.vcxproj" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\cppwinrt\cppwinrt.vcxproj.filters" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\cppwinrt\packages.config" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\WindowsApplication\cppwinrt_WindowsApplication.vstemplate" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\WindowsApplication\PropertySheet.props" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\WindowsApplication\WindowsApplication.vcxproj" />
+    <None Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\WindowsApplication\WindowsApplication.vcxproj.filters" />
+    <None Include="..\..\..\..\..\OneDrive\igfx_win10_100.7584.exe" />
+    <None Include="..\..\..\..\..\OneDrive\Intel-Driver-and-Support-Assistant-Installer.exe" />
+    <None Include="..\..\..\..\..\OneDrive\MediaCreationTool1903.exe" />
+    <None Include="..\..\..\..\..\OneDrive\Microsoft.VisualStudio.Offline.config" />
+    <None Include="..\..\..\..\..\OneDrive\realsense-config.json" />
+    <None Include="..\..\..\..\..\realsense-config.json" />
+    <None Include="Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\ConsoleApplication\pch.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\cppwinrt\cmd_reader.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\cppwinrt\code_writers.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\cppwinrt\component_writers.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\cppwinrt\file_writers.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\cppwinrt\helpers.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\cppwinrt\pch.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\cppwinrt\settings.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\cppwinrt\task_group.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\cppwinrt\text_writer.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\cppwinrt\type_writers.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\WindowsApplication\pch.h" />
+    <ClInclude Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\WindowsApplication\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\ConsoleApplication\readme.txt" />
+    <Text Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\WindowsApplication\readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\WindowsApplication\WindowsApplication.exe.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\..\..\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C++\My Code Snippets\WindowsApplication\WindowsApplication.rc" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

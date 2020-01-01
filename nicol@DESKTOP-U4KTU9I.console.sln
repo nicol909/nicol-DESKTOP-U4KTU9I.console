@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nicol@DESKTOP-U4KTU9I.console", "nicol@DESKTOP-U4KTU9I.console\nicol@DESKTOP-U4KTU9I.console.vcxproj", "{60CA5AAD-9CDC-481F-B6F1-2B6D2F0B4E06}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{356FFC12-9E9D-410E-BB12-8EA69C057254}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\OneDrive\Documents\Visual Studio 2019\.vsconfig = ..\..\..\..\OneDrive\Documents\Visual Studio 2019\.vsconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
